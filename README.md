@@ -1,4 +1,4 @@
-# Hi, I'm Alex Vega
+# Hi, I'm Alex
 
 **Product-Minded Fullstack Developer** | Building products, not just writing code
 
