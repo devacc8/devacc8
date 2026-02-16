@@ -13,7 +13,7 @@
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/-Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-> 7+ years in development, 5+ in Web3 & Solidity. I think about what to build before writing the first line of code.
+> 10 years in development, 5+ in Web3 & Solidity. I think about what to build before writing the first line of code.
 
 ---
 
@@ -56,7 +56,7 @@ Chrome extension for real-time crypto monitoring. BTC/ETH prices, gas fees, conv
 
 [![Website](https://img.shields.io/badge/-vegaforge.dev-c87941?style=flat-square&logo=google-chrome&logoColor=white)](https://vegaforge.dev)
 [![X](https://img.shields.io/badge/-@vvegalex-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/vvegalex)
-[![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/devacc8)
+[![Email](https://img.shields.io/badge/-devacc8@pm.me-8B89CC?style=flat-square&logo=protonmail&logoColor=white)](mailto:devacc8@pm.me)
 
 ---
 
