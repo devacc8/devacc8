@@ -28,6 +28,15 @@ First atomic 365-NFT bundle marketplace on Base L2. Trustless escrow smart contr
 - 9.0/10 security audit score, 0 critical issues
 - Built end-to-end: smart contracts, backend, frontend, audit
 
+### [AvaxLens](https://avaxlens.vercel.app)
+Free smart contract analytics for Avalanche C-Chain. Paste any contract address — get instant insights: transaction volume, gas usage, function breakdown, error logs.
+
+`Next.js 16` `TypeScript` `Tailwind CSS 4` `Recharts` `viem` `Avalanche`
+
+- Zero setup — no signup, no API key, no SQL
+- Server-side ABI decoding, in-memory TTL cache
+- [GitHub](https://github.com/devacc8/avaxlens)
+
 ### [CoinPeek](https://chromewebstore.google.com/detail/coinpeek-bitcoin-price-ba/konlmcdlofpoegdkbjocdfojejmfkfbo)
 Chrome extension for real-time crypto monitoring. BTC/ETH prices, gas fees, converter. Published in Chrome Web Store.
 
