@@ -16,18 +16,28 @@
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/-Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-> 10 years in development, 5+ in Web3 across EVM and Solana. I think about what to build before writing the first line of code.
+> 8+ years in development, 5+ in Web3 across EVM and Solana. I think about what to build before writing the first line of code.
 
 ---
 
 ## Featured Projects
 
+### [Missing Days](https://missing-days.vercel.app)
+A BasePaint profile for any address: which daily canvases it owns, which days are missing from each set, which of those gaps are scarce, and what it painted. No wallet connect, no keys, no backend, every number read from BasePaint's public indexer.
+
+`Next.js 16` `React 19` `viem` `Vercel` `BasePaint Indexer` `CC0`
+
+- **Winner, BasePaint Year 3 Hackathon, category FOR COLLECTORS** (32 projects, 8 judges)
+- [Live](https://missing-days.vercel.app) | [GitHub](https://github.com/devacc8/missing-days) | [Winners announcement](https://x.com/basepaint_xyz/status/2089728694852190523)
+- Judges: "Clean, simple and instantly useful to visualize and complete a collection."
+- Released CC0 so it can fold back into BasePaint itself
+
 ### [BasePaint Market](https://basepaint.market)
-First atomic 365-NFT bundle marketplace on Base L2. Trustless escrow smart contracts, full-stack implementation from Solidity to frontend.
+First atomic 365-NFT bundle marketplace on Base L2. Trustless approval-based listings (no escrow), full-stack implementation from Solidity to frontend.
 
 `Solidity` `Next.js 14` `Node.js` `PostgreSQL` `RainbowKit` `wagmi` `viem` `Docker` `Base L2`
 
-- 2,342 automated tests
+- 3,700+ automated tests across the stack
 - 9.0/10 security audit score, 0 critical issues
 - Built end-to-end: smart contracts, backend, frontend, audit
 
@@ -46,11 +56,11 @@ Chrome extension for real-time crypto monitoring. BTC/ETH prices, gas fees, conv
 `JavaScript` `Chrome APIs` `Manifest V3` `CoinGecko API`
 
 ### [AvaxLens](https://avaxlens.vercel.app)
-Free smart contract analytics for Avalanche C-Chain. Paste any contract address — get instant insights: transaction volume, gas usage, function breakdown, error logs.
+Free smart contract analytics for Avalanche C-Chain. Paste any contract address and get instant insights: transaction volume, gas usage, function breakdown, error logs.
 
 `Next.js 16` `TypeScript` `Tailwind CSS 4` `Recharts` `viem` `Avalanche`
 
-- Zero setup — no signup, no API key, no SQL
+- Zero setup: no signup, no API key, no SQL
 - Server-side ABI decoding, in-memory TTL cache
 - [GitHub](https://github.com/devacc8/avaxlens)
 
@@ -60,10 +70,11 @@ Free smart contract analytics for Avalanche C-Chain. Paste any contract address 
 
 | | |
 |---|---|
-| **PoolTogether Special Prize** | ETHOnline 2020 — Chainlink-sponsored ETHGlobal hackathon |
+| **BasePaint Hackathon Winner** | Year 3 (2026), category FOR COLLECTORS, Missing Days |
+| **PoolTogether Special Prize** | ETHOnline 2020, Chainlink-sponsored ETHGlobal hackathon |
 | **Open Source Contributor** | PRs merged to Talent Protocol, Base ecosystem |
 | **Published Extension** | CoinPeek approved in Chrome Web Store |
-| **2,342 Tests** | BasePaint Market — 9.0/10 audit score |
+| **3,700+ Tests** | BasePaint Market, 9.0/10 audit score |
 
 ---
 
