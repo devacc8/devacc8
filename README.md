@@ -53,17 +53,23 @@ Trustless peer-to-peer skill-wagering on Solana. Two players stake USDC on their
 - Colosseum Frontier Hackathon 2026 MVP (Solana devnet)
 
 ### [CoinPeek](https://chromewebstore.google.com/detail/coinpeek-bitcoin-price-ba/konlmcdlofpoegdkbjocdfojejmfkfbo)
-Chrome extension for real-time crypto monitoring. BTC/ETH prices, gas fees, converter. Published in Chrome Web Store.
+Chrome extension that keeps the Bitcoin price in the toolbar badge, plus ETH prices, gas fees for both networks, and a BTC/ETH/USD converter. Updates every minute from a Manifest V3 service worker and caches the last known prices for offline use.
 
-`JavaScript` `Chrome APIs` `Manifest V3` `CoinGecko API`
+`JavaScript` `Chrome APIs` `Manifest V3` `CoinGecko` `Blocknative` `mempool.space`
+
+- Live in the Chrome Web Store, about 50KB, MIT licensed
+- 5 API integrations with 3 fallback APIs, so one provider outage does not blank the badge
+- Open source: [GitHub](https://github.com/devacc8/coinpeek)
 
 ### [AvaxLens](https://avaxlens.vercel.app)
-Free smart contract analytics for Avalanche C-Chain. Paste any contract address and get instant insights: transaction volume, gas usage, function breakdown, error logs.
+Free smart contract analytics for Avalanche C-Chain. Paste any contract address and get transaction volume, gas usage, function breakdown, decoded revert reasons, top callers and an AI security audit with a risk grade. No signup, no API key, no cost.
 
 `Next.js 16` `TypeScript` `Tailwind CSS 4` `Recharts` `viem` `Avalanche`
 
-- Zero setup: no signup, no API key, no SQL
-- Server-side ABI decoding, in-memory TTL cache
+- Six dashboard tabs over up to 10,000 transactions, decoded server-side with viem from Routescan and Snowtrace data
+- Analytics pre-computed to about 2KB of JSON per contract, so charts render in seconds with no client-side parsing
+- Built for Avalanche Build Games 2026, development by me with a partner on design and documentation
+- Rate limiting, CSP and HSTS headers, LRU caches on ABI, analytics and transaction data
 - [GitHub](https://github.com/devacc8/avaxlens)
 
 ---
