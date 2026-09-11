@@ -49,7 +49,7 @@ Trustless peer-to-peer skill-wagering on Solana. Two players stake USDC on their
 - Winner takes 95%, resolved on-chain. The contract has no instruction to ban winning players
 - Passkey onboarding in about 2 seconds: no seed phrase, no wallet extension
 - Platform-sponsored gas, so players only ever need USDC, never SOL
-- No token, on purpose: pure USDC escrow, no house edge
+- No token, on purpose: pure USDC escrow with no platform coin
 - Colosseum Frontier Hackathon 2026 MVP (Solana devnet)
 
 ### [CoinPeek](https://chromewebstore.google.com/detail/coinpeek-bitcoin-price-ba/konlmcdlofpoegdkbjocdfojejmfkfbo)
