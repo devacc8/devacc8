@@ -42,13 +42,15 @@ First atomic 365-NFT bundle marketplace on Base L2. Trustless approval-based lis
 - Built end-to-end: smart contracts, backend, frontend, audit
 
 ### [SkillTax](https://skilltax.gg)
-Trustless P2P skill-wagering on Solana. Two players stake USDC on their own 1v1 match (Brawl Stars, Chess.com, Lichess); the result is auto-verified via the game API and an on-chain escrow pays the winner.
+Trustless peer-to-peer skill-wagering on Solana. Two players stake USDC on their own 1v1 match (Brawl Stars, Chess.com, Lichess), a worker verifies the result through the game's API, and an Anchor escrow pays the winner automatically. No house, no screenshots, no disputes.
 
 `Solana` `Anchor` `Rust` `Next.js 15` `tRPC` `Privy` `Supabase`
 
-- Passkey onboarding, no seed phrase; platform-sponsored gas (users hold only USDC)
-- Winner gets 95%, auto-resolved on-chain, no screenshots or disputes
-- Colosseum Frontier Hackathon 2026 (Solana devnet)
+- Winner takes 95%, resolved on-chain. The contract has no instruction to ban winning players
+- Passkey onboarding in about 2 seconds: no seed phrase, no wallet extension
+- Platform-sponsored gas, so players only ever need USDC, never SOL
+- No token, on purpose: pure USDC escrow, no house edge
+- Colosseum Frontier Hackathon 2026 MVP (Solana devnet)
 
 ### [CoinPeek](https://chromewebstore.google.com/detail/coinpeek-bitcoin-price-ba/konlmcdlofpoegdkbjocdfojejmfkfbo)
 Chrome extension for real-time crypto monitoring. BTC/ETH prices, gas fees, converter. Published in Chrome Web Store.
