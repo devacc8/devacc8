@@ -65,11 +65,11 @@ Daily time budgets for the distraction sites you choose, enforced at the network
 ### [CoinPeek](https://chromewebstore.google.com/detail/coinpeek-bitcoin-price-ba/konlmcdlofpoegdkbjocdfojejmfkfbo)
 Chrome extension that keeps the Bitcoin price in the toolbar badge, plus ETH prices, gas fees for both networks, and a BTC/ETH/USD converter. Updates every minute from a Manifest V3 service worker and caches the last known prices for offline use.
 
-`JavaScript` `Chrome APIs` `Manifest V3` `CoinGecko` `Blocknative` `mempool.space`
+`JavaScript` `Chrome APIs` `Manifest V3` `CoinGecko` `Owlracle` `mempool.space`
 
 - Live in the Chrome Web Store, about 50KB, MIT licensed
 - 5 API integrations with 3 fallback APIs, so one provider outage does not blank the badge
-- Open source: [GitHub](https://github.com/devacc8/coinpeek)
+- [Store](https://chromewebstore.google.com/detail/coinpeek-bitcoin-price-ba/konlmcdlofpoegdkbjocdfojejmfkfbo) | [GitHub](https://github.com/devacc8/coinpeek)
 
 ---
 
