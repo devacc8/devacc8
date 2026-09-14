@@ -68,7 +68,7 @@ Chrome extension that keeps the Bitcoin price in the toolbar badge, plus ETH pri
 `JavaScript` `Chrome APIs` `Manifest V3` `CoinGecko` `Owlracle` `mempool.space`
 
 - Live in the Chrome Web Store, about 50KB, MIT licensed
-- 5 API integrations with 3 fallback APIs, so one provider outage does not blank the badge
+- 6 API integrations across prices and fees, each with a fallback chain, so one provider outage does not blank the badge
 - [Store](https://chromewebstore.google.com/detail/coinpeek-bitcoin-price-ba/konlmcdlofpoegdkbjocdfojejmfkfbo) | [GitHub](https://github.com/devacc8/coinpeek)
 
 ---
