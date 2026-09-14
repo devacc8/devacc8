@@ -22,6 +22,15 @@
 
 ## Featured Projects
 
+### [BasePaint Market](https://basepaint.market)
+First atomic 365-NFT bundle marketplace on Base L2. Trustless approval-based listings (no escrow), full-stack implementation from Solidity to frontend.
+
+`Solidity` `Next.js 14` `Node.js` `PostgreSQL` `RainbowKit` `wagmi` `viem` `Docker` `Base L2`
+
+- 3,700+ automated tests across the stack
+- 9.0/10 security audit score, 0 critical issues
+- Built end-to-end: smart contracts, backend, frontend, audit
+
 ### [Missing Days](https://missing-days.vercel.app)
 A BasePaint profile for any address: which daily canvases it owns, which days are missing from each set, which of those gaps are scarce, and what it painted. No wallet connect, no keys, no backend, every number read from BasePaint's public indexer.
 
@@ -31,15 +40,6 @@ A BasePaint profile for any address: which daily canvases it owns, which days ar
 - [Live](https://missing-days.vercel.app) | [GitHub](https://github.com/devacc8/missing-days) | [Winners announcement](https://x.com/basepaint_xyz/status/2089728694852190523)
 - Judges: "Clean, simple and instantly useful to visualize and complete a collection."
 - Released CC0 so it can fold back into BasePaint itself
-
-### [BasePaint Market](https://basepaint.market)
-First atomic 365-NFT bundle marketplace on Base L2. Trustless approval-based listings (no escrow), full-stack implementation from Solidity to frontend.
-
-`Solidity` `Next.js 14` `Node.js` `PostgreSQL` `RainbowKit` `wagmi` `viem` `Docker` `Base L2`
-
-- 3,700+ automated tests across the stack
-- 9.0/10 security audit score, 0 critical issues
-- Built end-to-end: smart contracts, backend, frontend, audit
 
 ### [SkillTax](https://skilltax.gg)
 Trustless peer-to-peer skill-wagering on Solana. Two players stake USDC on their own 1v1 match (Brawl Stars, Chess.com, Lichess), a worker verifies the result through the game's API, and an Anchor escrow pays the winner automatically. No house, no screenshots, no disputes.
@@ -61,17 +61,6 @@ Chrome extension that keeps the Bitcoin price in the toolbar badge, plus ETH pri
 - 5 API integrations with 3 fallback APIs, so one provider outage does not blank the badge
 - Open source: [GitHub](https://github.com/devacc8/coinpeek)
 
-### [AvaxLens](https://avaxlens.vercel.app)
-Free smart contract analytics for Avalanche C-Chain. Paste any contract address and get transaction volume, gas usage, function breakdown, decoded revert reasons, top callers and an AI security audit with a risk grade. No signup, no API key, no cost.
-
-`Next.js 16` `TypeScript` `Tailwind CSS 4` `Recharts` `viem` `Avalanche`
-
-- Six dashboard tabs over up to 10,000 transactions, decoded server-side with viem from Routescan and Snowtrace data
-- Analytics pre-computed to about 2KB of JSON per contract, so charts render in seconds with no client-side parsing
-- Built for Avalanche Build Games 2026, development by me with a partner on design and documentation
-- Rate limiting, CSP and HSTS headers, LRU caches on ABI, analytics and transaction data
-- [GitHub](https://github.com/devacc8/avaxlens)
-
 ### [DSH Billing Badge](https://github.com/devacc8/dsh-billing-badge)
 Billing season and account balance for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness), the open-source agent harness where everything is a plugin. A pill in the composer statistics row shows a peak or off-peak dot with a countdown to the next switch, and opens a panel that splits the balance into granted and topped up in the currency the API reports.
 
@@ -92,6 +81,17 @@ A vendored, hardened fork of a community file explorer for the DeepSeek Harness 
 - English UI, theme-matched panel, file-type colours, indent guides, per-workspace memory of expanded folders and scroll position
 - Three fixes that are not fork-specific were sent upstream as pull requests
 - [GitHub](https://github.com/devacc8/dsh-file-explorer)
+### [AvaxLens](https://avaxlens.vercel.app)
+Free smart contract analytics for Avalanche C-Chain. Paste any contract address and get transaction volume, gas usage, function breakdown, decoded revert reasons, top callers and an AI security audit with a risk grade. No signup, no API key, no cost.
+
+`Next.js 16` `TypeScript` `Tailwind CSS 4` `Recharts` `viem` `Avalanche`
+
+- Six dashboard tabs over up to 10,000 transactions, decoded server-side with viem from Routescan and Snowtrace data
+- Analytics pre-computed to about 2KB of JSON per contract, so charts render in seconds with no client-side parsing
+- Built for Avalanche Build Games 2026, development by me with a partner on design and documentation
+- Rate limiting, CSP and HSTS headers, LRU caches on ABI, analytics and transaction data
+- [GitHub](https://github.com/devacc8/avaxlens)
+
 
 ---
 
