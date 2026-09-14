@@ -52,6 +52,16 @@ Trustless peer-to-peer skill-wagering on Solana. Two players stake USDC on their
 - No token, on purpose: pure USDC escrow with no platform coin
 - Colosseum Frontier Hackathon 2026 MVP (Solana devnet)
 
+### [Curfew](https://chromewebstore.google.com/detail/curfew/obnikdokealeimpbhfbjhpdmfcgbgcje)
+Daily time budgets for the distraction sites you choose, enforced at the network level. Relaxing a rule costs a solved puzzle instead of a click, so the decision stays deliberate. Local-only: no accounts, no analytics, and no network layer of its own.
+
+`TypeScript` `Manifest V3` `Chrome APIs` `Declarative Net Request` `MIT`
+
+- Live in the Chrome Web Store
+- Per-site permissions, granted one site at a time and revocable in `chrome://extensions`
+- 200 unit tests, including invariants that enforce the permission allowlist and the no-network rule
+- [Store](https://chromewebstore.google.com/detail/curfew/obnikdokealeimpbhfbjhpdmfcgbgcje) | [GitHub](https://github.com/devacc8/curfew-extension)
+
 ### [CoinPeek](https://chromewebstore.google.com/detail/coinpeek-bitcoin-price-ba/konlmcdlofpoegdkbjocdfojejmfkfbo)
 Chrome extension that keeps the Bitcoin price in the toolbar badge, plus ETH prices, gas fees for both networks, and a BTC/ETH/USD converter. Updates every minute from a Manifest V3 service worker and caches the last known prices for offline use.
 
@@ -60,6 +70,21 @@ Chrome extension that keeps the Bitcoin price in the toolbar badge, plus ETH pri
 - Live in the Chrome Web Store, about 50KB, MIT licensed
 - 5 API integrations with 3 fallback APIs, so one provider outage does not blank the badge
 - Open source: [GitHub](https://github.com/devacc8/coinpeek)
+
+---
+
+## Other Projects
+
+### [AvaxLens](https://avaxlens.vercel.app)
+Free smart contract analytics for Avalanche C-Chain. Paste any contract address and get transaction volume, gas usage, function breakdown, decoded revert reasons, top callers and an AI security audit with a risk grade. No signup, no API key, no cost.
+
+`Next.js 16` `TypeScript` `Tailwind CSS 4` `Recharts` `viem` `Avalanche`
+
+- Six dashboard tabs over up to 10,000 transactions, decoded server-side with viem from Routescan and Snowtrace data
+- Analytics pre-computed to about 2KB of JSON per contract, so charts render in seconds with no client-side parsing
+- Built for Avalanche Build Games 2026, development by me with a partner on design and documentation
+- Rate limiting, CSP and HSTS headers, LRU caches on ABI, analytics and transaction data
+- [GitHub](https://github.com/devacc8/avaxlens)
 
 ### [DSH Billing Badge](https://github.com/devacc8/dsh-billing-badge)
 Billing season and account balance for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness), the open-source agent harness where everything is a plugin. A pill in the composer statistics row shows a peak or off-peak dot with a countdown to the next switch, and opens a panel that splits the balance into granted and topped up in the currency the API reports.
@@ -81,16 +106,6 @@ A vendored, hardened fork of a community file explorer for the DeepSeek Harness 
 - English UI, theme-matched panel, file-type colours, indent guides, per-workspace memory of expanded folders and scroll position
 - Three fixes that are not fork-specific were sent upstream as pull requests
 - [GitHub](https://github.com/devacc8/dsh-file-explorer)
-### [AvaxLens](https://avaxlens.vercel.app)
-Free smart contract analytics for Avalanche C-Chain. Paste any contract address and get transaction volume, gas usage, function breakdown, decoded revert reasons, top callers and an AI security audit with a risk grade. No signup, no API key, no cost.
-
-`Next.js 16` `TypeScript` `Tailwind CSS 4` `Recharts` `viem` `Avalanche`
-
-- Six dashboard tabs over up to 10,000 transactions, decoded server-side with viem from Routescan and Snowtrace data
-- Analytics pre-computed to about 2KB of JSON per contract, so charts render in seconds with no client-side parsing
-- Built for Avalanche Build Games 2026, development by me with a partner on design and documentation
-- Rate limiting, CSP and HSTS headers, LRU caches on ABI, analytics and transaction data
-- [GitHub](https://github.com/devacc8/avaxlens)
 
 
 ---
@@ -102,7 +117,7 @@ Free smart contract analytics for Avalanche C-Chain. Paste any contract address 
 | **BasePaint Hackathon Winner** | Year 3 (2026), category FOR COLLECTORS, Missing Days |
 | **PoolTogether Special Prize** | ETHOnline 2020, Chainlink-sponsored ETHGlobal hackathon |
 | **Open Source Contributor** | PRs merged to Talent Protocol, Base ecosystem |
-| **Published Extension** | CoinPeek approved in Chrome Web Store |
+| **Published Extensions** | CoinPeek and Curfew live in the Chrome Web Store |
 | **3,700+ Tests** | BasePaint Market, 9.0/10 audit score |
 
 ---
