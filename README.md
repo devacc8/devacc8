@@ -55,7 +55,7 @@ Trustless peer-to-peer skill-wagering on Solana. Two players stake USDC on their
 ### [Curfew](https://chromewebstore.google.com/detail/curfew/obnikdokealeimpbhfbjhpdmfcgbgcje)
 Daily time budgets for the distraction sites you choose, enforced at the network level. Relaxing a rule costs a solved puzzle instead of a click, so the decision stays deliberate. Local-only: no accounts, no analytics, and no network layer of its own.
 
-`TypeScript` `Manifest V3` `Chrome APIs` `Declarative Net Request` `MIT`
+`JavaScript` `Manifest V3` `Chrome APIs` `Declarative Net Request` `MIT`
 
 - Live in the Chrome Web Store
 - Per-site permissions, granted one site at a time and revocable in `chrome://extensions`
