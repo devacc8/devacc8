@@ -72,6 +72,27 @@ Free smart contract analytics for Avalanche C-Chain. Paste any contract address 
 - Rate limiting, CSP and HSTS headers, LRU caches on ABI, analytics and transaction data
 - [GitHub](https://github.com/devacc8/avaxlens)
 
+### [DSH Billing Badge](https://github.com/devacc8/dsh-billing-badge)
+Billing season and account balance for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness), the open-source agent harness where everything is a plugin. A pill in the composer statistics row shows a peak or off-peak dot with a countdown to the next switch, and opens a panel that splits the balance into granted and topped up in the currency the API reports.
+
+`JavaScript` `ESM` `DeepSeek Harness` `npm` `MIT`
+
+- Published on npm, so it installs with `dsh plugin --profile web add dsh-billing-badge`
+- The API key stays in the host process, the single route rejects cross-origin callers, and nothing is written to disk
+- 30 tests, GitHub Actions on Node 20 and 22, no dependencies
+- Reads `is_available` from the top level of the official balance response, so the panel warns only when the API really reports an insufficient balance
+- [GitHub](https://github.com/devacc8/dsh-billing-badge) | [npm](https://www.npmjs.com/package/dsh-billing-badge)
+
+### [DSH File Explorer](https://github.com/devacc8/dsh-file-explorer)
+A vendored, hardened fork of a community file explorer for the DeepSeek Harness web GUI: a file tree with a tabbed preview, search, sorting and in-panel editing.
+
+`TypeScript` `DeepSeek Harness` `Security hardening` `MIT`
+
+- Every path, reads included, is confined to a registered workspace root; external programs launch argv-only
+- English UI, theme-matched panel, file-type colours, indent guides, per-workspace memory of expanded folders and scroll position
+- Three fixes that are not fork-specific were sent upstream as pull requests
+- [GitHub](https://github.com/devacc8/dsh-file-explorer)
+
 ---
 
 ## Achievements
