@@ -132,7 +132,7 @@ A vendored, hardened fork of a community file explorer for the DeepSeek Harness 
 
 [![Website](https://img.shields.io/badge/-vegaforge.dev-c87941?style=flat-square&logo=google-chrome&logoColor=white)](https://vegaforge.dev)
 [![X](https://img.shields.io/badge/-@vvegalex-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/vvegalex)
-[![Email](https://img.shields.io/badge/-devacc8@pm.me-8B89CC?style=flat-square&logo=protonmail&logoColor=white)](mailto:devacc8@pm.me)
+[![Email](https://img.shields.io/badge/-alex@vegaforge.dev-8B89CC?style=flat-square&logo=protonmail&logoColor=white)](mailto:alex@vegaforge.dev)
 
 ---
 
